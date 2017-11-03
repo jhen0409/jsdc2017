@@ -47,13 +47,15 @@ export default (
     </Slide>
 
     <Slide bgColor="secondary" textColor="primary">
-      <Link
-        target="_blank"
-        textColor="tertiary"
-        href="https://github.com/jhen0409/react-native-debugger/issues/151"
-      >
-        Electron 1.8 memory issue (Chrome >= 59)
-      </Link>
+      <Heading size={6} textColor="primary">
+        <Link
+          target="_blank"
+          textColor="tertiary"
+          href="https://github.com/jhen0409/react-native-debugger/issues/151"
+        >
+          Electron 1.8 memory issue (Chrome >= 59)
+        </Link>
+      </Heading>
     </Slide>
 
     <Slide bgColor="secondary" textColor="primary">
