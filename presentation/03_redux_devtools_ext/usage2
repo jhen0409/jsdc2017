@@ -1,0 +1,9 @@
+const composeEnhancers =
+  window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ?
+    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({ /* options */ }) :
+    compose 
+
+const store = createStore(
+  reducer, /* preloadedState, */\n
+  compose(...enhancers)
+)
