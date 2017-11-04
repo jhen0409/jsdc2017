@@ -115,7 +115,7 @@ export default (
     </Slide>
 
     <Slide bgColor="secondary" textColor="primary">
-      <Image width={700} src={images.contributors} />
+      <Image width={625} src={images.contributors} />
       <br />
       <Link
         target="_blank"

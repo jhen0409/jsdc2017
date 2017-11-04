@@ -97,7 +97,7 @@ export default (
     </Slide>
 
     <Slide bgColor="secondary" textColor="primary">
-      <Image src={images.remotedevRNDebugger} />
+      <Image src={images.remotedevRNDebugger} margin="0 0 -30px" />
       <Link
         target="_blank"
         textColor="tertiary"
@@ -245,12 +245,12 @@ export default (
         Shortcuts (Context menu)
       </Heading>
       <List>
-        <ListItem margin="8px">Reload JS [iOS only]</ListItem>
-        <ListItem margin="8px">Toogle Elements Inspector [iOS only]</ListItem>
-        <ListItem margin="8px">Show Developer Menu [iOS only]</ListItem>
-        <ListItem margin="8px">Enable / Disable Network Inspect</ListItem>
-        <ListItem margin="8px">Log AsyncStorage content</ListItem>
-        <ListItem margin="8px">Clear AsyncStorage</ListItem>
+        <ListItem>Reload JS [iOS only]</ListItem>
+        <ListItem>Toogle Elements Inspector [iOS only]</ListItem>
+        <ListItem>Show Developer Menu [iOS only]</ListItem>
+        <ListItem>Enable / Disable Network Inspect</ListItem>
+        <ListItem>Log AsyncStorage content</ListItem>
+        <ListItem>Clear AsyncStorage</ListItem>
       </List>
       <Link
         target="_blank"

@@ -35,7 +35,7 @@ export default (
     </Slide>
 
     <Slide bgColor="secondary" textColor="primary" notes="">
-      <Heading size={6} textColor="primary" lineHeight={1}>
+      <Heading size={6} textColor="primary">
         How Debug Remotely works?
       </Heading>
       <Image src={images.debugRemotelySimple} />
