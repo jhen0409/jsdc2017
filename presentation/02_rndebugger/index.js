@@ -336,6 +336,22 @@ export default (
       </Notes>
     </Slide>
 
+    <Slide>
+      <Heading size={6} textColor="primary">
+        <Link
+          target="_blank"
+          textColor="tertiary"
+          href="https://github.com/artsy/emission/blob/master/docs/debugging.md#standalone-debugger-app"
+        >
+          artsy/emission
+        </Link>
+      </Heading>
+      <Notes>
+        It using react-native-debugger and set `REACT_DEBUGGER` env in
+        package.json.
+      </Notes>
+    </Slide>
+
     <Slide bgColor="secondary" textColor="primary">
       <CodePane
         margin="30px 0 0"
