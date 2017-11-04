@@ -362,5 +362,21 @@ export default (
       <Image src="https://user-images.githubusercontent.com/3001525/31390358-490eb22a-ad99-11e7-9d1a-65b4d185e261.gif" />
       <Notes>Used create-react-native-app.</Notes>
     </Slide>
+
+    <Slide bgColor="secondary" textColor="primary">
+      <Heading size={6} textColor="primary">
+        <Link
+          target="_blank"
+          textColor="tertiary"
+          href="https://github.com/lelandrichardson/react-native-in-depth"
+        >
+          lelandrichardson/react-native-in-depth
+        </Link>
+      </Heading>
+      <Notes>
+        It's using react-native-debugger, and have some great debug utils for
+        react-devtools.
+      </Notes>
+    </Slide>
   </SlideSet>
 )
