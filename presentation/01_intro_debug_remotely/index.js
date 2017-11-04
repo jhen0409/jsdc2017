@@ -45,20 +45,6 @@ export default (
     </Slide>
 
     <Slide bgColor="secondary" textColor="primary">
-      <Heading size={4} textColor="primary" margin="0 0 60px 0">
-        Remote debugger on Chrome
-      </Heading>
-      <List>
-        <ListItem>http://localhost:8081/debugger-ui</ListItem>
-        <ListItem>Run application script in WebWorker</ListItem>
-      </List>
-      <Notes>
-        The standard remote debugger is included in react-native packager as web
-        page.
-      </Notes>
-    </Slide>
-
-    <Slide bgColor="secondary" textColor="primary">
       <Heading size={5} textColor="primary" margin="0 0 60px 0">
         Third party remote debugger
       </Heading>
@@ -93,6 +79,20 @@ export default (
         </ListItem>
         <ListItem>......</ListItem>
       </List>
+    </Slide>
+
+    <Slide bgColor="secondary" textColor="primary">
+      <Heading size={4} textColor="primary" margin="0 0 60px 0">
+        Standard Remote Debugger on Chrome
+      </Heading>
+      <List>
+        <ListItem>http://localhost:8081/debugger-ui</ListItem>
+        <ListItem>Run application script in WebWorker</ListItem>
+      </List>
+      <Notes>
+        The standard remote debugger is included in react-native packager as web
+        page.
+      </Notes>
     </Slide>
 
     <Slide bgColor="secondary" textColor="primary">
