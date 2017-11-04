@@ -91,19 +91,19 @@ export default (
     </Slide>
 
     <Slide bgColor="secondary" textColor="primary">
-      <Text margin="30px 0 15px" textSize={30} textColor="primary">
+      <Text margin="30px 0 15px" textSize={42} textColor="primary">
         Define module
       </Text>
       <CodePane
-        textSize={24}
+        textSize={30}
         lang="javascript"
         source={'/**\n * @providesModule MyModule\n */'}
       />
-      <Text margin="30px 0 15px" textSize={30} textColor="primary">
+      <Text margin="30px 0 15px" textSize={42} textColor="primary">
         In console
       </Text>
       <CodePane
-        textSize={24}
+        textSize={30}
         lang="javascript"
         source={'> require(\'MyModule\')'}
       />
@@ -114,15 +114,32 @@ export default (
     </Slide>
 
     <Slide bgColor="secondary" textColor="primary">
-      <Text margin="30px 0 15px" textSize={30} textColor="primary">
+      <Heading size={4} textColor="primary">
         Debug Native module
-      </Text>
+      </Heading>
       <CodePane
-        textSize={24}
+        margin="30px 0 0 0"
+        textSize={32}
         lang="javascript"
         source={'> require(\'NativeModules\').MyNativeModule'}
       />
       <Notes>Of course, you can use it to debug native modules.</Notes>
+    </Slide>
+
+    <Slide bgColor="secondary" textColor="primary">
+      <CodePane
+        margin="0 0 30px 0"
+        textSize={32}
+        lang="javascript"
+        source={'> require(\'MessageQueue\').spy(true)'}
+      />
+      <Link
+        href="https://github.com/facebook/react-native/blob/7b575d669d8d6806f17fb679aa34ecb05c75883a/Libraries/BatchedBridge/MessageQueue.js#L89-L107"
+        target="_blank"
+        textColor="tertiary"
+      >
+        spy(spyOrToggle: boolean | ((data: SpyData) => void))
+      </Link>
     </Slide>
 
     <Slide bgColor="secondary" textColor="primary">
