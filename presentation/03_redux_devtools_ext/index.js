@@ -223,8 +223,8 @@ export default (
         <ListItem textSize={32}>Not yet support for RNDebugger</ListItem>
       </List>
       <Notes>
-        MobX support in Redux DevTools. remotedev-react-state is my experiment
-        for inject state changes in Redux DevTools Extension.
+        redux-remotedev is useful for bug report with redux store state, you can
+        deploy the server with remotedev-server.
       </Notes>
     </Slide>
 

@@ -331,8 +331,8 @@ export default (
       <Notes>
         If you use RNDebugger directly, you need close standard remote debugger
         browser tab. You can use `REACT_DEBUGGER` env for launch it by RN
-        packager, it already wrote in official docs. Linux / Windows support is
-        help wanted.
+        packager, it already wrote in official docs. Linux / Windows supports
+        are help wanted.
       </Notes>
     </Slide>
 
