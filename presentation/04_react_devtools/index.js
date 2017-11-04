@@ -17,7 +17,8 @@ const images = {
   consolidatePackages: require('./consolidate-packages.png'),
   rnSupport: require('./rn-support.png'),
   styleEditor: require('./style-editor.png'),
-  contributors: require('./contributors-01-11.png')
+  contributors: require('./contributors-01-11.png'),
+  changePortInRN: require('./change-port-in-rn.png')
 }
 
 export default (
@@ -171,7 +172,7 @@ export default (
     </Slide>
 
     <Slide bgColor="secondary" textColor="primary">
-      <Heading size={5} textColor="primary" margin="20px 0 0 0">
+      <Heading size={5} textColor="primary">
         Specified features for React Native
       </Heading>
       <List>
@@ -235,6 +236,41 @@ export default (
         Inspired by react-native packager, we could request
         `http://localhost:8081/open-stack-frame` to open file in editor.
       </Notes>
+    </Slide>
+
+    <Slide bgColor="secondary" textColor="primary">
+      <Heading size={5} textColor="primary">
+        React DevTools in RNDebugger
+      </Heading>
+      <List>
+        <ListItem textSize={36}>
+          Random port (Set `__REACT_DEVTOOLS_PORT__`)
+        </ListItem>
+        <ListItem textSize={36}>
+          Change default theme depends Chrome DevTools
+        </ListItem>
+      </List>
+    </Slide>
+
+    <Slide bgColor="secondary" textColor="primary">
+      <Image src={images.changePortInRN} />
+      <Link
+        target="_blank"
+        textColor="tertiary"
+        href="https://github.com/facebook/react-native/pull/10522"
+      >
+        Make react-devtools port can be changed
+      </Link>
+    </Slide>
+
+    <Slide bgColor="secondary" textColor="primary">
+      <Link
+        target="_blank"
+        textColor="tertiary"
+        href="https://github.com/jhen0409/react-native-debugger/blob/master/docs/react-devtools-integration.md#change-theme-of-chrome-devtools-with-react-devtools-together"
+      >
+        <Image src="https://user-images.githubusercontent.com/3001525/29600011-f0782798-8798-11e7-88cf-98f50e24199d.gif" />
+      </Link>
     </Slide>
 
     <Slide bgColor="secondary" textColor="primary">
