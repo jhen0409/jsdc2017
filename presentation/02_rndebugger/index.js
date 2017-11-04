@@ -336,7 +336,7 @@ export default (
       </Notes>
     </Slide>
 
-    <Slide>
+    <Slide bgColor="secondary" textColor="primary">
       <Heading size={6} textColor="primary">
         <Link
           target="_blank"
