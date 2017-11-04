@@ -45,43 +45,6 @@ export default (
     </Slide>
 
     <Slide bgColor="secondary" textColor="primary">
-      <Heading size={5} textColor="primary" margin="0 0 60px 0">
-        Third party remote debugger
-      </Heading>
-      <List>
-        <ListItem>
-          Nuclide - Debugger of RN
-          <Link
-            target="_blank"
-            href="https://github.com/facebook/nuclide/commit/fccd95d310d021ad67a6e524066bd9ab91e0e3ca"
-            textColor="tertiary"
-          >
-            {' (removed)'}
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Link
-            target="_blank"
-            href="https://github.com/Microsoft/vscode-react-native"
-            textColor="tertiary"
-          >
-            vscode-react-native
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Link
-            target="_blank"
-            textColor="tertiary"
-            href="https://blog.jetbrains.com/webstorm/2016/12/developing-mobile-apps-with-react-native-in-webstorm/"
-          >
-            WebStorm
-          </Link>
-        </ListItem>
-        <ListItem>......</ListItem>
-      </List>
-    </Slide>
-
-    <Slide bgColor="secondary" textColor="primary">
       <Heading size={4} textColor="primary" margin="0 0 60px 0">
         Standard Remote Debugger on Chrome
       </Heading>
@@ -201,6 +164,43 @@ export default (
           </Link>
         </ListItem>
         <ListItem>The `uri` property of FormData</ListItem>
+        <ListItem>......</ListItem>
+      </List>
+    </Slide>
+
+    <Slide bgColor="secondary" textColor="primary">
+      <Heading size={5} textColor="primary" margin="0 0 60px 0">
+        Third party remote debugger
+      </Heading>
+      <List>
+        <ListItem>
+          Nuclide - Debugger of RN
+          <Link
+            target="_blank"
+            href="https://github.com/facebook/nuclide/commit/fccd95d310d021ad67a6e524066bd9ab91e0e3ca"
+            textColor="tertiary"
+          >
+            {' (removed)'}
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link
+            target="_blank"
+            href="https://github.com/Microsoft/vscode-react-native"
+            textColor="tertiary"
+          >
+            vscode-react-native
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link
+            target="_blank"
+            textColor="tertiary"
+            href="https://blog.jetbrains.com/webstorm/2016/12/developing-mobile-apps-with-react-native-in-webstorm/"
+          >
+            WebStorm
+          </Link>
+        </ListItem>
         <ListItem>......</ListItem>
       </List>
     </Slide>
