@@ -1,6 +1,7 @@
 import React from 'react'
-import { Deck, Slide, Heading, Link, Text } from 'spectacle'
+import { Deck, Slide, Heading, Link, Text, Image } from 'spectacle'
 import createTheme from 'spectacle/lib/themes/default'
+import preloader from 'spectacle/lib/utils/preloader'
 
 require('normalize.css')
 require('spectacle/lib/themes/default/index.css')
@@ -17,6 +18,12 @@ const theme = createTheme(
     secondary: 'Helvetica'
   }
 )
+
+const images = {
+  link: require('./link.png')
+}
+
+preloader(images)
 
 const sections = [
   require('./00_about_me').default,
@@ -55,8 +62,8 @@ export default () => (
       >
         http://jhen.tw/jsdc2017
       </Heading>
+      <Image margin="45px 0" width={400} src={images.link} />
       <Heading
-        margin="60px 0"
         size={6}
         bold={false}
         textColor="tertiary"
