@@ -187,6 +187,15 @@ export default (
             remotedev-react-state
           </Link>
         </ListItem>
+        <ListItem>
+          <Link
+            target="_blank"
+            href="https://github.com/lucasconstantino/react-inspect-props"
+            textColor="tertiary"
+          >
+            react-inspect-props
+          </Link>
+        </ListItem>
       </List>
       <Notes>
         MobX support in Redux DevTools. remotedev-react-state is my experiment
