@@ -105,6 +105,24 @@ export default (
 
     <Slide bgColor="secondary" textColor="primary">
       <Heading size={6} textColor="primary">
+        <Link
+          href="https://github.com/jhen0409/react-native-debugger/issues/141"
+          target="_blank"
+          textColor="tertiary"
+        >
+          Resolve Haul issues
+        </Link>
+      </Heading>
+      <Notes>
+        Haul is great React Native bundler that hug Webpack community, I'm
+        considering use it in the future. Currently it doesn't support like
+        REACT_DEBUGGER and `require` polyfill, so some RNDebugger features
+        doesn't work.
+      </Notes>
+    </Slide>
+
+    <Slide bgColor="secondary" textColor="primary">
+      <Heading size={6} textColor="primary">
         Build custom Electron for RNDebugger
       </Heading>
       <List>
